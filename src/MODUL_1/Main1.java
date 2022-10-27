@@ -1,3 +1,5 @@
+package MODUL_1;
+
 public class Main1 { // pembuatan public class main1, tujuan menggunakan public agar dapat diakses di kelas lain
     public static void main(String[] args) {// merupakan fungsi utama dimana semua statement dijalankan, statement tidak dapat dijalankan
                                             // selain dari fungsi ini.

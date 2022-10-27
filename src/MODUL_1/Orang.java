@@ -1,9 +1,11 @@
+package MODUL_1;
+
 public class Orang { // penggunaan public agar dapat diakses oleh class lain
 
 //    Class orang yang digunakan sebagai objek untuk merepresentasikan bentuk sebuah dataset
 //    dimana objek tersebut diibaratkan sebagai bentuk abstrak dari data yang ingin dibuat.
 //    kita ambil contoh objek tersebut merupakan manusia, dimana memiliki nama, tinggi, dll.
-//    jadi class Orang ini sebagai sebuah bentuk yang tidak konkrit (abstrak), yang hanya memberikan label ke objek tersebut.
+//    jadi class MODUL_1.Orang ini sebagai sebuah bentuk yang tidak konkrit (abstrak), yang hanya memberikan label ke objek tersebut.
 //    lalu label tersebut diisi dengan karakteristik dari objek tersebut.
 
 //    selanjutnya ada bentuk constructor yang berfungsi sebagai penempatan suatu objek dalam memori, dan didalam consructor
@@ -18,9 +20,9 @@ public class Orang { // penggunaan public agar dapat diakses oleh class lain
     int kpow; // atribut (label) power yang akan diisi dengan power objek
 
     Orang(String nama, int tinggi, int kpow) {
-//        ketika membuat objek baru --> Orang data = new Orang(); program akan memberitahukan bahwa objek tersebut haruslah terdapat label
+//        ketika membuat objek baru --> MODUL_1.Orang data = new MODUL_1.Orang(); program akan memberitahukan bahwa objek tersebut haruslah terdapat label
 //        karena terdapat constructor
-//        jika pembuatan objek baru dengan --> Orang data = new Orang("rix", 187, 87); program akan memberitahukan bahwa objek tersebut sesuai
+//        jika pembuatan objek baru dengan --> MODUL_1.Orang data = new MODUL_1.Orang("rix", 187, 87); program akan memberitahukan bahwa objek tersebut sesuai
 //        karena saat pembentukannya telah diberikan label sebagai penanda objek tersebut
         this.nama = nama; // penggunaan (this) untuk mencegah terjadinya variabel shadowing
         this.tinggi = tinggi;

@@ -1,3 +1,5 @@
+package MODUL_1;
+
 public class Main2 {// membuat public class main sebagai tempat pengoprasian data
     public static void main(String[] args) { // merupakan fungsi utama dimana semua statement dijalankan, statement tidak dapat dijalankan
                                              // selain dari fungsi ini.

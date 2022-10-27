@@ -1,3 +1,5 @@
+package MODUL_1;
+
 public class LinkedList<T> { // penggunaan public agar diakses oleh class lain
     private static class Node<T> { // <T> sebagai pembentukan generic yang digunakan ketika melakukan passing argumen
                                    // tidak dalam bentuk value tetapi dalam bentuk tipe data. dimana tipe data tersebut
@@ -16,7 +18,7 @@ public class LinkedList<T> { // penggunaan public agar diakses oleh class lain
         // Ada bentuk constructor yang berfungsi sebagai penempatan suatu objek dalam memori, dan didalam consructor
         // terdapat label-label yang akan menggambarkan objek ketika dibentuk.
         T data; // T digunakan sebagai tipe data yang diambil pada saat objek pertama kali dibentuk
-                // misal pada saat pembentukan objek LinkedList<String> simpul = new LinkedList<>();
+                // misal pada saat pembentukan objek MODUL_1.LinkedList<String> simpul = new MODUL_1.LinkedList<>();
                 // maka T sekarang merupakan tipe data String.
         Node<T> next; // penunjuk data selanjutnya
         Node<T> prev; // penunjuk data sebelumnya
@@ -24,9 +26,9 @@ public class LinkedList<T> { // penggunaan public agar diakses oleh class lain
         Node(T data) {
             this.data = data; // penggunaan (this) untuk mencegah terjadinya variabel shadowing
         }
-        // ketika membuat objek baru --> Orang data = new Orang(); program akan memberitahukan bahwa objek tersebut haruslah terdapat label
+        // ketika membuat objek baru --> MODUL_1.Orang data = new MODUL_1.Orang(); program akan memberitahukan bahwa objek tersebut haruslah terdapat label
         // karena terdapat constructor
-        // jika pembuatan objek baru dengan --> Orang data = new Orang("aryu", 167, 67); program akan memberitahukan bahwa objek tersebut sesuai
+        // jika pembuatan objek baru dengan --> MODUL_1.Orang data = new MODUL_1.Orang("aryu", 167, 67); program akan memberitahukan bahwa objek tersebut sesuai
         // karena saat pembentukannya telah diberikan label sebagai penanda objek tersebut.
     }
 
@@ -40,7 +42,7 @@ public class LinkedList<T> { // penggunaan public agar diakses oleh class lain
     public void addBack(T data) {
         // fungsi addBack digunakan untuk menambah data atau simpul baru ke belakang list.
         // T pada parameter merupakan tipe data yang diambil pada saat objek pertama kali dibentuk
-        // misal pada saat pembentukan objek LinkedList<String> simpul = new LinkedList<>();
+        // misal pada saat pembentukan objek MODUL_1.LinkedList<String> simpul = new MODUL_1.LinkedList<>();
         // maka T sekarang merupakan tipe data String.
         // pada fungsi ini ketika data dibentuk akan dicek apakah pada list itu kosong atau tidak
         // jika kosong data akan menjadi data head
@@ -68,7 +70,7 @@ public class LinkedList<T> { // penggunaan public agar diakses oleh class lain
     public void addFront(T data) {
         // fungsi addFront digunakan untuk menambah data atau simpul baru ke depan list.
         // T pada parameter merupakan tipe data yang diambil pada saat objek pertama kali dibentuk
-        // misal pada saat pembentukan objek LinkedList<String> simpul = new LinkedList<>();
+        // misal pada saat pembentukan objek MODUL_1.LinkedList<String> simpul = new MODUL_1.LinkedList<>();
         // maka T sekarang merupakan tipe data String.
         // pada fungsi ini ketika data dibentuk akan dicek apakah pada list itu kosong atau tidak
         // jika kosong data akan menjadi data head
@@ -93,7 +95,7 @@ public class LinkedList<T> { // penggunaan public agar diakses oleh class lain
     public void add(int index, T data) {
         // merupakan function overloading dimana pada fungsi ini menambah data sesuai index yand ditentukan
         // T pada parameter merupakan tipe data yang diambil pada saat objek pertama kali dibentuk
-        // misal pada saat pembentukan objek LinkedList<String> simpul = new LinkedList<>();
+        // misal pada saat pembentukan objek MODUL_1.LinkedList<String> simpul = new MODUL_1.LinkedList<>();
         // maka T sekarang merupakan tipe data String.
 
         // penambahan data yang dimaksud adalah jika ada linkedlist yang terdiri dari 4 simpul

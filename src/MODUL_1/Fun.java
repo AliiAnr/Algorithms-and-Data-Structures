@@ -1,10 +1,12 @@
+package MODUL_1;
+
 import java.util.Objects; // digunakan sebagai Perintah Untuk Memasukan suatu Method atau perintah
                          // dalam Java sehingga perintah tersebut dapat Aktif dan digunakan.
 
 public class Fun { // pembuatan public class fun, tujuan menggunakan public agar dapat diakses di kelas lain
     public static void delete(LinkedList<Orang> list, String nama) { // digunakan sebagai fungsi untuk menghapus node di linkedlist
         for (int i = 0; i < list.capacity(); i++) {                  // digunakan generic untuk menentukan tipedata dari objek yang ingin dibuat
-            if (Objects.equals(list.get(i).nama, nama)) {            // LinkedList<Orang> list berarti tipe data dari list itu adalah Orang
+            if (Objects.equals(list.get(i).nama, nama)) {            // MODUL_1.LinkedList<MODUL_1.Orang> list berarti tipe data dari list itu adalah MODUL_1.Orang
                 list.delete(i);                                      // dimana orang tersebut berisi name, height, dan power
             }                                                        // terdapat perulangan sebanyak  panjang dari linkedList, dimana jika suatu objek
         }                                                            // sesuai dengan nama pada parameter, maka data tersebut akan dihapus, pada fungsi ini.
