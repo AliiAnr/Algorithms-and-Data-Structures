@@ -24,6 +24,7 @@ public class Rezpon_2 {
             head = data;
         }
         size++;
+
     }
 
     void enQueue(int value){
