@@ -29,7 +29,7 @@ public class Main2_2 {
         String input = scanner.next();
         //fun.sortInsertion(list) merupakan pemanggilan method fun beserta fungsi searchBinary didalamnya
         //data yang akan di cari disesuaikan dengan data yg di input. data dicari dengan metode Binary
-        //menggunakan 2 atribut untuk membandingkan data pada list dan data yg akan dicari
+        //menggunakan 2 atribut untuk membandingkan data pada list dan data yg akan dicari.
         Fun.searchBinary(list, input);
         scanner.close();
     }
