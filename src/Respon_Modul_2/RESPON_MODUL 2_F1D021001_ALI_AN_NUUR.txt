@@ -1,0 +1,30 @@
+ada suatu hari di Land Of Down, terdapat beberapa hero yang memiliki kondisi kritis darah pasca peperangan. Saat itu, hanya hero esteslah yang dapat mengatasi
+kondisi tersebut. Dikarenakan hero-hero tersebut ingin segera menyembuhkan kondisi tubuh mereka, terjadilah keributan antara hero-hero tersebut. 
+akibatnya, estes memutuskan untuk membuat antrian agar proses penyembuhan berjalan dengan lancar sehingga hero-hero tersebut membuat antrian.
+urutan antrian yang dibuat oleh hero-hero tersebut adalah sebagai berikut:
+
+Karina - Zilong - Beatrix - Kagura - Chou - Layla - hayabusa
+
+Dikarenakan hero tersebut memiliki kondisi yang sama-sama kritis, mereka menjadi tidak kondusif dalam mengantri. Hero-hero tersebut ingin menjadi yang terdepan
+dan yang duluan disembuhkan. Oleh karena itu, agar situasi menjadi kondusif, estes akan memilih hero yang akan menjadi prioritas dan mendapatkan penyembuhan
+pertama. estes akan memilih 2 hero yang akan menjadi prioritas antrian. Apabila hero pertama telah terpilih, maka hero tersebut akan menjadi prioritas
+dan akan berada pada posisi antrian pertama. contoh:
+
+Karina - Zilong - Beatrix - Kagura - Chou - Layla - Hayabusa
+
+Prioritas = Chou
+
+Chou - Karina - Zilong - Beatrix Kagura - Hayabusa
+
+
+Untuk Hero kedua yang dipilih, hero tersebut akan diprioritaskan dan akan ditempatkan setelah hero prioritas pertama. contoh:
+
+Chou - Karina - Zilong - Beatrix - Kagura - Layla - Hayabusa
+
+
+
+Prioritas = Kagura;
+
+Chou - Kagura - Zilong - Beatrix - Layla - Hayabusa
+
+Bantulah estes untuk memilih hero siapa yang ingin diprioritaskan dan dijadikan antrian pertama!!
