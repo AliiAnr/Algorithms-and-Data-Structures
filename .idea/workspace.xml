@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a2e45cb-df75-4ed0-ab7d-8830ef1d050b" name="Changes" comment="JURNAL Modul 4">
-      <change afterPath="$PROJECT_DIR$/src/MODUL_5/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MODUL_5/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MODUL_5/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MODUL_5/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MODUL_5/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MODUL_5/Vertex.java" afterDir="false" />
+    <list default="true" id="1a2e45cb-df75-4ed0-ab7d-8830ef1d050b" name="Changes" comment="JURNAL Modul 5">
+      <change afterPath="$PROJECT_DIR$/src/Respon_Modul_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Respon_Modul_4/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Respon_Modul_4/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668855778361</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="JURNAL Modul 5">
+      <created>1670162482516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670162482516</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +203,8 @@
     <MESSAGE value="Respon Modul 2" />
     <MESSAGE value="Respon Modul 3" />
     <MESSAGE value="JURNAL Modul 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="JURNAL Modul 4" />
+    <MESSAGE value="JURNAL Modul 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="JURNAL Modul 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
